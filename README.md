@@ -25,18 +25,18 @@
 
 ## 🛠 기술 스택
 
-**Front-end**
+**Language**
 
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=white)
   
 
 **program**
 
-- ![Vscode](https://img.shields.io/badge/Vscode-007ACC?&logo=visualstudiocode&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=Figma&logoColor=white)
+- ![Vscode](https://img.shields.io/badge/Vscode-007ACC?&logo=visualstudiocode&logoColor=white) 
 
 **ETC**
 
-- ![GitHub](https://img.shields.io/badge/-GitHub-181717?&logo=github&logoColor=white)
+- ![GitHub](https://img.shields.io/badge/-GitHub-181717?&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=Figma&logoColor=white)
 
 <br />
 
