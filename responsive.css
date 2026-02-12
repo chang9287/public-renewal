@@ -1,8 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  header{
-    width: 100%;
-    height: auto;
-  }
+  header{}
   .header_inner{
     box-sizing: border-box;
     
@@ -247,7 +244,10 @@
     flex-wrap: wrap;
     gap: 1px;
   }
-  .edu_tap_menu01 li{    
+  .edu_tap_menu01 li{
+    white-space: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .edu_tap_menu01 li a{
     font-size: 17px;
@@ -255,10 +255,11 @@
     padding: 0 1px;
     letter-spacing: -0.5px;
     display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
-  .active em{
-    
-  }
+  .active em{}
 
   /* 큰 콘텐츠 */
   #edu_tap_content01{
@@ -443,12 +444,10 @@
     transition: 0.3s;
   }
 
-   /* info-faq 부분 */
-   .info-faq{
+  /* info-faq 부분 */
+  .info-faq{
     width: 100%;
     height: auto;
-    
-    
   }
   .info-faq_inner{
     width: 100%;
@@ -457,7 +456,6 @@
     background-image: url(images/mobile_info_faq_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
   }
   .info-faq>img{
     height: 100%;
@@ -729,9 +727,6 @@
   .table_01, .table_02, .table_03{
     width: 90%;
   }
-  .phone_content .table_01 tr:first-child td:nth-child(2), .phone_content .table_01 tr:last-child td:first-child{
-    font-size: 12px;
-  }
 
   .phone_content .table_01 tr:first-child td:first-child{
     width: 45%;
@@ -850,7 +845,6 @@
     width: 47.5%;
   }
 
-  /* education 온라인교육 위치조정 */
   .edu_btn{
     top: 95%;
   }
@@ -958,26 +952,6 @@
   }
 }
 
-/* 팝업 창 크기 조절 */
-@media screen and (max-width: 480px){
-  .pop_up{
-    width: 80%
-  }
-}
-
-
-/* education 큰 탭 메뉴 글자 크기 조절*/
-@media screen and (max-width: 430px){
-  .edu_tap_menu01 li a{
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 340px){
-  .edu_tap_menu01 li a{
-    font-size: 13px;
-  }
-}
 
 @media screen and (max-width: 320px){
   header{}
@@ -1120,7 +1094,7 @@
 
   /* 팝업창 */
   .pop_up{
-    width: 90%;
+    width: 60%;
     right: 50%;
     transform: translate(50%, -50%);
     z-index: 110;
@@ -1226,16 +1200,21 @@
     gap: 1px;
   }
   .edu_tap_menu01 li{
-    
+    white-space: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .edu_tap_menu01 li a{
-    font-size: 12px;
+    font-size: 17px;
     height: 50px;
     padding: 0 1px;
     letter-spacing: -0.5px;
     display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
-  .active:nth-child(1) em{}
+  .active em{}
 
   /* 큰 콘텐츠 */
   #edu_tap_content01{
@@ -1298,10 +1277,6 @@
     gap: 10px;
     border-radius: 0;  
   }
-
-  
-
-
 
   /* news 부분 */
   .news{
@@ -1395,8 +1370,6 @@
     width: 100%;
     height: auto;
     padding-top: 25px;
-    
-    
     background-image: url(images/mobile_info_faq_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1508,12 +1481,7 @@
   }
   .info-faq_guide ul li{
     flex: 1;
-  }
-  .info-faq_guide ul li:nth-child(2) a img{
-    margin-bottom: 2px;
-  }
-  .info-faq_guide ul li:nth-child(2) a{
-    padding: 11.5px 0;
+    
   }
   .info-faq_guide ul li a{
     width: 100%;
@@ -1521,16 +1489,12 @@
     height: auto;
   }
 
-  .info-faq_guide ul li a span{
-    font-size: 10px;
-  }
 
   /* 오른쪽 콘텐츠 */
   .info-faq_right{
     width: 95%;
     height: auto;
     margin: 0 auto;
-    
   }
 
   /* 아코디언 */
@@ -1591,10 +1555,6 @@
     text-align: justify;
   }
 
-
-
-
-
   /* document 부분 */
   .document{
     width: 100%;
@@ -1653,10 +1613,9 @@
     width: 45%;
   }
   .download_content ul li span{
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  
 
   .download_content ul li a i{}
 
@@ -1682,10 +1641,6 @@
     width: 90%;
   }
 
-  .phone_content .table_01 tr:first-child td:nth-child(2), .phone_content .table_01 tr:last-child td:first-child{
-    padding-left: 5px;
-    font-size: 10px;
-  }
   .phone_content .table_01 tr:first-child td:first-child{
     width: 45%;
   }
@@ -1778,6 +1733,7 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    
   }
   .footer_social ul{
     align-items: center;

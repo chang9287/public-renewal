@@ -1,5 +1,4 @@
 
-
 //nav-submenu
 let mainName = document.querySelectorAll('.main_menu ul li a');
 let subMenu = document.querySelector('.sub_menu');
@@ -326,12 +325,6 @@ accordionData.forEach(function(item, index){
 })
 
 
-
-
-
-
-
-
 //news
 //news 스와이퍼
 var swiper = new Swiper(".newsSwiper", {
@@ -373,6 +366,3 @@ for(let i = 0; i < newsTab.length; i++){
 }
 //첫 번째 탭 콘텐츠를 기본적으로 보이게 설정
 document.getElementById('news_tabs_1').style.display = 'block';
-
-
-

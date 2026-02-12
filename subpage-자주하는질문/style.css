@@ -302,10 +302,9 @@ header{
   writing-mode: vertical-rl;
   font-size: 18px;
   font-weight: 200;
-  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 50px;
 }
-  
   
 /* 퀵메뉴 - 아래 */
 .bottom{
